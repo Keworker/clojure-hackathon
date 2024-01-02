@@ -24,7 +24,7 @@
     (println edge_list)
     (println infected)
     (for [edge edge_list :let [x (get edge 0) y (get edge 1)]]
-      (conj! (get graph x) y))
+      (conj! (get graph x) y))))
 
 (problem1242)
 
